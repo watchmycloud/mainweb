@@ -96,26 +96,56 @@ var appMaster = {
     },
 
     animateScript: function () {
-        $( '.scrollpoint.sp-effect1' ).waypoint( function () {
-            $( this ).toggleClass( 'active' );
-            $( this ).toggleClass( 'animated fadeInLeft' );
-        }, { offset: '100%' } );
-        $( '.scrollpoint.sp-effect2' ).waypoint( function () {
-            $( this ).toggleClass( 'active' );
-            $( this ).toggleClass( 'animated fadeInRight' );
-        }, { offset: '100%' } );
-        $( '.scrollpoint.sp-effect3' ).waypoint( function () {
-            $( this ).toggleClass( 'active' );
-            $( this ).toggleClass( 'animated fadeInDown' );
-        }, { offset: '100%' } );
-        $( '.scrollpoint.sp-effect4' ).waypoint( function () {
-            $( this ).toggleClass( 'active' );
-            $( this ).toggleClass( 'animated fadeIn' );
-        }, { offset: '100%' } );
-        $( '.scrollpoint.sp-effect5' ).waypoint( function () {
-            $( this ).toggleClass( 'active' );
-            $( this ).toggleClass( 'animated fadeInUp' );
-        }, { offset: '100%' } );
+        new Waypoint({
+            element: document.querySelectorAll('.scrollpoint.sp-effect1'),
+            handler: function() {
+                console.log('trigger effect1')
+                $( this.element ).toggleClass( 'active' );
+                $( this.element ).toggleClass( 'animated fadeInLeft' );
+            },
+            offset: '100%'
+        })
+
+        new Waypoint({
+            element: document.querySelectorAll('.scrollpoint.sp-effect2'),
+            handler: function() {
+                console.log('trigger effect2')
+                $( this.element ).toggleClass( 'active' );
+                $( this.element ).toggleClass( 'animated fadeInRight' );
+            },
+            offset: '100%'
+        })
+
+        new Waypoint({
+            element: document.querySelectorAll('.scrollpoint.sp-effect3'),
+            handler: function() {
+                console.log('trigger effect3')
+                $( this.element ).toggleClass( 'active' );
+                $( this.element ).toggleClass( 'animated fadeInDown' );
+            },
+            offset: '100%'
+        })
+
+/*
+        new Waypoint({
+            element: document.querySelectorAll('.scrollpoint.sp-effect4'),
+            handler: function() {
+                $( this.element ).toggleClass( 'active' );
+                $( this.element ).toggleClass( 'animated fadeIn' );
+            },
+            offset: '100%'
+        })
+*/
+
+        new Waypoint({
+            element: document.querySelectorAll('.scrollpoint.sp-effect5'),
+            handler: function() {
+                console.log('trigger effect5')
+                $( this.element ).toggleClass( 'active' );
+                $( this.element ).toggleClass( 'animated fadeInUp' );
+            },
+            offset: '100%'
+        })
     },
 
     revSlider: function () {
@@ -149,10 +179,6 @@ var appMaster = {
                 $( 'nav' ).removeClass( 'scrolled' );
             }
         } );
-    },
-    placeHold: function () {
-        // run Placeholdem on all elements with placeholders
-        Placeholdem( document.querySelectorAll( '[placeholder]' ) );
     }
 
 }; // AppMaster
@@ -168,10 +194,8 @@ $( document ).ready( function () {
 
     appMaster.animateScript();
 
-    appMaster.revSlider();
+    //appMaster.revSlider();
 
     appMaster.scrollMenu();
-
-    appMaster.placeHold();
 
 } );

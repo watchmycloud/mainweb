@@ -1,7 +1,6 @@
 {
   "name": "mainweb",
   "description": "Static website for general call-to-actions to the WatchMyCloud ecosystem",
-  "main": "index.js",
   "authors": [
     "Jim Cook <jcook@transcordia.com>"
   ],
@@ -18,6 +17,34 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "slick-carousel": "~1.5.8",
+    "waypoints": "~4.0.0",
+    "font-awesome": "~4.4.0",
+    "animate.css": "~3.4.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*"
+      ]
+    },
+    "waypoints": {
+      "main": [
+        "lib/jquery.waypoints.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/fontawesome-webfont.eot",
+        "fonts/fontawesome-webfont.woff",
+        "fonts/fontawesome-webfont.woff2",
+        "fonts/fontawesome-webfont.ttf",
+        "fonts/fontawesome-webfont.svg"
+      ]
+    }
   }
 }
