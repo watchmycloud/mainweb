@@ -1,0 +1,23 @@
+{
+  "name": "mainweb",
+  "description": "Static website for general call-to-actions to the WatchMyCloud ecosystem",
+  "main": "index.js",
+  "authors": [
+    "Jim Cook <jcook@transcordia.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/watchmycloud/mainweb",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

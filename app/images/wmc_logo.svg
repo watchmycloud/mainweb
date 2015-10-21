@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="339px" height="184px" viewBox="0 0 339 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>wmc_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.4314548%" y1="56.6679375%" x2="15.6900366%" y2="3.02807476%" id="linearGradient-1">
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.60375716%" y1="54.5603093%" x2="75.6115779%" y2="26.9172611%" id="linearGradient-2">
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="57.9245887%" y1="82.4069067%" x2="33.11221%" y2="2.21616477%" id="linearGradient-3">
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="59.3247235%" y1="100%" x2="59.3247294%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="68.8146646%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.0556926%" y1="4.67704061%" x2="74.691348%" y2="102.688604%" id="linearGradient-5">
+            <stop stop-color="#4BC4F3" offset="0%"></stop>
+            <stop stop-color="#4BC3F3" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="49.2745536%"></stop>
+            <stop stop-color="#3FC0FB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.6285282%" y1="35.4531891%" x2="100%" y2="91.1838479%" id="linearGradient-6">
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="84.5660126%" y1="91.024822%" x2="26.4847059%" y2="0%" id="linearGradient-7">
+            <stop stop-color="#31C0F8" offset="0%"></stop>
+            <stop stop-color="#31BFF7" offset="0%"></stop>
+            <stop stop-color="#2B7DD3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Letter" sketch:type="MSArtboardGroup" transform="translate(-28.000000, -25.000000)">
+            <g id="Logo-Large" sketch:type="MSLayerGroup" transform="translate(28.000000, 25.000000)">
+                <g id="wmc_logo" sketch:type="MSShapeGroup">
+                    <path d="M93.8144531,32.9414063 C93.8144531,32.9414063 107.310523,35.1760913 115.805275,38.6823533 C134.457321,14.5086347 214.283478,-7.23123395 223.871094,92.0507813 C240.978195,-7.23123374 146.37896,-24.8074137 93.8144531,32.9414063 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+                    <path d="M1.22880115,118.576672 C-3.08414422,63.553184 32.4973212,60.3902597 41.5620456,61.3548674 C72.9872743,64.6989314 104.46341,91.0537125 125.921156,109.217433 C99.9710085,87.6173321 9.73994463,39.5451161 1.22880115,118.576672 Z" id="Path-5" fill="url(#linearGradient-2)"></path>
+                    <path d="M31.0165096,111.147289 C31.0165096,150.67572 101.140475,138.2164 135.286858,140.752922 C79.8984172,191.194283 0.957893998,172.607986 0.957893988,109.948193 C5.29154591,75.6016506 53.239453,48.6823922 126.666582,109.976664 C43.1969811,57.6406785 31.0165096,102.411106 31.0165096,111.147289 Z" id="Path-4" fill="url(#linearGradient-3)"></path>
+                    <path d="M135.203609,140.645253 C145.686161,145.70535 175.126187,168.109545 178.246792,171.11368 C99.4671595,171.11368 47.9395811,177.238427 23.720135,157.463066 C43.59989,173.033326 107.789356,165.68087 135.203609,140.645253 Z" id="Path-3" fill="url(#linearGradient-4)"></path>
+                    <path d="M13.9053583,71.2740382 C85.9200754,-0.894250717 192.72651,106.505773 202.728513,114.306865 C214.260876,123.301564 296.657416,199.313131 332.961572,134.995975 C308.380621,195.744742 248.320418,183.084479 238.225979,181.817102 C168.999993,173.125639 70.6362505,24.1758783 13.9053583,71.2740382 Z" id="Path-6" fill="url(#linearGradient-5)"></path>
+                    <path d="M199.377547,111.322572 C259.084105,166.527238 337.950011,152.655759 337.950012,103.537873 C340.052565,136.117479 323.4031,159.719939 297.859313,162.388459 C271.774714,165.113477 236.371905,145.034986 199.377547,111.322572 Z" id="Path-7" fill="url(#linearGradient-6)"></path>
+                    <path d="M206.057911,117.281667 C263.767173,164.469555 307.141652,130.95092 306.301326,107.653247 C304.822548,66.6548122 250.029418,49.4996619 223.565933,92.1977352 C235.968132,15.7786201 182.447866,2.47172897 169,0.341570306 C169,0.341570306 212.517406,-0.0961948753 238.992974,42.7442355 C283.973053,21.174332 335.465078,56.011378 338.113074,103.103042 C339.881736,134.556744 291.345352,181.873181 206.057911,117.281667 Z" id="Path-8" fill="url(#linearGradient-7)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
