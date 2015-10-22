@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/watchmycloud/mainweb#readme",
   "devDependencies": {
+    "bower": "^1.6.3",
     "browser-sync": "^2.2.1",
     "del": "^1.1.1",
     "gulp": "^3.9.0",
