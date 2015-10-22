@@ -10,7 +10,7 @@ var reload = browserSync.reload
 gulp.task( 'styles', function () {
     return gulp.src( 'app/styles/*.css' )
         .pipe( $.sourcemaps.init() )
-        .pipe( $.autoprefixer( { browsers: [ 'last 2 versions' ] } ) )
+        .pipe( $.autoprefixer( { browsers: [ '> 1%' ] } ) )
         .pipe( $.sourcemaps.write() )
         .pipe( gulp.dest( '.tmp/styles' ) )
         .pipe( reload( { stream: true } ) )
